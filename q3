@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+
+void TwoLetters(char letter1, char letter2);
+
+int main() {
+	char l1, l2;
+	cout << "enter two letters:" << endl;
+	cin >> l1;
+	cin >> l2;
+	TwoLetters('A', 'R');
+
+}
+
+
+void TwoLetters(char letter1, char letter2) {
+	cout << letter1 << letter2 << endl;
+}
